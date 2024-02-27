@@ -658,7 +658,7 @@ header .search-bar-container label:hover{
   }
   
   .home {
-      background-image: url('images/bataille\ navale.png');
+      background-image: url('images/fond.avif');
       background-size: cover;
       background-position: center;
       height: 100vh;
