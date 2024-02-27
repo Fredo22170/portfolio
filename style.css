@@ -649,6 +649,21 @@ header .search-bar-container label:hover{
     display: initial;
   }
 
+  .home .video-container video {
+      display: none;
+  }
+  
+  .home .controls {
+      display: none;
+  }
+  
+  .home {
+      background-image: url('images/bataille\ navale.png');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+  }
+  }
   header .navbar{
     position: absolute;
     top:100%; right:0; left: 0;
@@ -669,9 +684,6 @@ header .search-bar-container label:hover{
     margin:1.5rem 0;    
     background:#222;
   }
-
-}
-
 @media (max-width:450px){
 
   html{
