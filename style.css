@@ -5,7 +5,7 @@
 }
 
 *{
-  font-family: 'Georgia', serif;
+  font-family: 'Nunito', sans-serif;
   margin:0; padding:0;
   box-sizing: border-box;
   outline: none; border:none;
@@ -642,27 +642,28 @@ header .search-bar-container label:hover{
 
 }
 
-@media (max-width:768px){
+/* Ajoutez ces styles à la fin de votre fichier CSS */
+
+@media screen and (max-width: 768px) {
+  .home .video-container video {
+    display: none;
+  }
+
+  .home .controls {
+    display: none;
+  }
+
+  .home {
+    background-image: url('images/fond.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
 
   #menu-bar{
     display: initial;
   }
 
-  .home .video-container video {
-      display: none;
-  }
-  
-  .home .controls {
-      display: none;
-  }
-  
-  .home {
-      background-image: url('images/fond.avif');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-  }
-  }
   header .navbar{
     position: absolute;
     top:100%; right:0; left: 0;
@@ -683,6 +684,9 @@ header .search-bar-container label:hover{
     margin:1.5rem 0;    
     background:#222;
   }
+
+}
+
 @media (max-width:450px){
 
   html{
